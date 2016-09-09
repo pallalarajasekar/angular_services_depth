@@ -1,0 +1,36 @@
+[
+    {
+        "book_id": 2,
+        "title": "Green Eggs and Ham",
+        "author": "pallali",
+        "year": "1960"
+    },
+    {
+        "book_id": 3,
+        "title": "Where the Wild",
+        "author": "Maurice",
+        "year": "1963"
+    },
+    {
+        "book_id": 4,
+        "title": "The Hobbit",
+        "author": "J. R. R. Tolkien",
+        "year": "1937"
+    },
+    {
+        "book_id": 5,
+        "title": "Curious George",
+        "author": "H. A. Rey",
+        "year": "1941"
+    },
+    {
+        "book_id": 6,
+        "title": "Node Js",
+        "author": "Pallala Rajasekar"
+    },
+    {
+        "book_id": 7,
+        "title": "html",
+        "author": "guna"
+    }
+]

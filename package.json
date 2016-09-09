@@ -1,0 +1,22 @@
+{
+  "name": "angular_services_depth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallalarajasekar/angular_services_depth.git"
+  },
+  "author": "pallala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pallalarajasekar/angular_services_depth/issues"
+  },
+  "homepage": "https://github.com/pallalarajasekar/angular_services_depth#readme",
+  "dependencies": {
+    "xpressio": "^2.1.0"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
+</head>
+<body ng-app="app">
+
+<!--<div ng-controller="booksController as books">
+    <h1>Hello {{ books.appName }}!</h1>
+    <h1>book {{books.allBooks.author}}</h1>
+    <h3>All Books</h3>
+    <div>
+        <ul>
+            <li ng-repeat="book in books.allBooks">{{book.title}} - {{book.author}}</li>
+        </ul>
+    </div>
+    <h3>All Renders</h3>
+    <div>
+        <ul>
+            <li ng-repeat="render in books.allRenders">{{render.name}}</li>
+        </ul>
+    </div>
+
+
+
+</div>-->
+
+<h3>Book Logger</h3>
+
+<div ng-view></div>
+
+<!--<script src="/lib/angular.min.js"></script>-->
+<script src="/lib/angular.js"></script>
+<!--<script src="/lib/angular-route.min.js"></script>-->
+<script src="/lib/angular-route.js"></script>
+<script src="/lib/angular-cookies.js"></script>
+<script src="/lib/angular-resource.js"></script>
+<script src="/lib/jquery.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/controllers/booksController.js"></script>
+<script src="/js/controllers/addBookController.js"></script>
+<script src="/js/controllers/editBookController.js"></script>
+<script src="/js/services/dataService.js"></script>
+<script src="/js/services/loggerService.js"></script>
+<script src="/js/services/constantService.js"></script>
+<script src="/js/services/bookLoggerInterceptor.js"></script>
+<script src="/js/services/BookResource.js"></script>
+</body>
+</html>
