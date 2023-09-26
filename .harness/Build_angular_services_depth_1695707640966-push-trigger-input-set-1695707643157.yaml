@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_angular_services_depth_1695707640966-push-trigger-input-set
+  identifier: Build_angular_services_depth_1695707640966pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_angular_services_depth_1695707640966
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
